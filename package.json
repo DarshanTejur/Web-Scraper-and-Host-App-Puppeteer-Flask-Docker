@@ -1,0 +1,17 @@
+{
+    "name": "web-scraper",
+    "version": "1.0.0",
+    "description": "A simple Node.js script to scrape a website title and heading using Puppeteer",
+    "main": "scrape.js",
+    "scripts": {
+        "start": "node scrape.js"
+    },
+    "author": "Darshan TC",
+    "license": "MIT",
+   "dependencies": {
+  "puppeteer": "^22.8.2"
+}
+}
+
+
+
