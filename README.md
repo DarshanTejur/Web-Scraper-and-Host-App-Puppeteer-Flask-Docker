@@ -63,7 +63,7 @@ You don’t need to modify any files manually. Follow these steps to build and r
 
   4. Run the Docker Container (with Target URL)
 
-          docker run -e SCRAPE_URL=https://exactspace.co/ -p 5000:5000 web-scraper-app
+          docker run -e SCRAPE_URL=https://abc.co/ -p 5000:5000 web-scraper-app
 
   5. View Output
         Once the container is running, open your browser and go to:
@@ -73,7 +73,7 @@ You don’t need to modify any files manually. Follow these steps to build and r
         You’ll see JSON output like:
 
           {
-            "title": "ExactSpace",
+            "title": "abc",
             "heading": "We help industries accelerate to net zero using actionable intelligence"
           }
 
